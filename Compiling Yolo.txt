@@ -1,0 +1,9 @@
+** If you are using Anaconda on Windows: **
+
+Download or clone: https://github.com/allanzelener/YAD2K
+Download and put in "YAD2K" folder: http://pjreddie.com/media/files/yolov2.weights
+Download and put in "YAD2K" folder: https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov2.cfg
+Open anaconda prompt and activate deep learning (tensorflow) environment
+Run: "python yad2k.py yolov2.cfg yolov2.weights model_data/yolo.h5"
+If all went well - you will have a new "yolo.h5"model file in "model_data" folder, use it to replace old file in notebook
+** updated download links and python line **
