@@ -18,6 +18,8 @@ Yolo object detection using the yad2k : https://github.com/allanzelener/YAD2K
 
 You can clone or download this repository to run the object detection task. The model file needs to be generated. Refer to Compiling Yolo.txt
 
+----This is not an implementation of the yolo algorithm. It uses the model from the yad2k project. ----
+
 # Steps:
 
 	1. Read the classes anchors and the model
