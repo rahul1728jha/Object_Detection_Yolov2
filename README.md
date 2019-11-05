@@ -1,5 +1,11 @@
 # Object_Detection_Yolov2
-Object detection using yolov2
+Yolo is a very efficient object detection technique that gives good accuracy and is pretty fast.
+
+Paper link: https://arxiv.org/pdf/1612.08242.pdf
+
+# Features:
+
+Object detection using yolov2 for static images and webcam feed. For images, you can also check what is the output before techniques like IOU and NMS are applied to filter the optimal bounding box
 
 Yolo object detection using the yad2k : https://github.com/allanzelener/YAD2K 
 
@@ -49,5 +55,18 @@ You can clone or download this repository to run the object detection task. The 
   
   4. yolo_webcam_detection.ipynb : Perform detection on real time webcam feed.
   
+  # Check images before NMS
   
+  Once you run the image detection file, two sets of image will be saved.
   
+  image_files_output_before_nms : Images before the NMS is applied
+  
+  image_files_output : Images after NMS is applied
+  
+  # Input folder
+  
+  Place your images in the folder: images_input
+  
+  # Webcam output
+  
+  The output of webcam is saved in webcam_output as an .mp4 file 
