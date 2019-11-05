@@ -3,6 +3,13 @@ Yolo is a very efficient object detection technique that gives good accuracy and
 
 Paper link: https://arxiv.org/pdf/1612.08242.pdf
 
+# Some of the sample images. Left is after NMS. Right is before NMS is applied
+
+<table><tr><td><img src='image_files_output/car_person.jpg'></td><td><img src='image_files_output_before_nms/car_person.jpg'></td></tr></table>
+<table><tr><td><img src='image_files_output/market.jpg'></td><td><img src='image_files_output_before_nms/market.jpg'></td></tr></table>
+
+We can see how important is NMS so that we have finally only one and the best bounding box
+
 # Features:
 
 Object detection using yolov2 for static images and webcam feed. For images, you can also check what is the output before techniques like IOU and NMS are applied to filter the optimal bounding box
